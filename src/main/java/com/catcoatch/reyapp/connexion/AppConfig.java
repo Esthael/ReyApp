@@ -21,7 +21,7 @@ public class AppConfig {
         return DataSourceBuilder.create()
                 .url("jdbc:mysql://localhost:3306/reyTest")
                 .username("root")
-                .password("ErodRyuk09Loop")
+                .password("root")
                 .driverClassName("com.mysql.jdbc.Driver")
                 .build();
     }
